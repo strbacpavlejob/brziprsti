@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #242424;
+}
+.message{
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wordDysplay{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.inputArea{ 
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.wordDysplay{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display:table-cell; 
+    text-align:center;
+    vertical-align: middle; 
+}
+.checkArea{
+    margin-top: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.checkBtn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    height: 5rem;
+    color: white;
+    background-color: #121212;
+    padding: 10px;
+    border: 1px white solid;
+}
+.checkBtn:hover{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    height: 5rem;
+    color: #121212;
+    background-color: white;
+    padding: 10px;
+    border: 1px #121212 solid;
+}
+.charBtn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    background-color: #121212;
+    padding: 5px;
+    border: 1px white solid;
+    margin: 5px;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.charBtn:hover{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    height: 4rem;
+    color: #121212;
+    background-color: white;
+    padding: 5px;
+    border: 1px #121212 solid;
+}
+.charBtn:disabled{
+    color: #797979;
+    border: none;
+}
+.charBtn:disabled:hover{
+    color: #797979;
+    border: none;
+    background-color: #121212;
+}
